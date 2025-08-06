@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.layout.AnchorPane?>
+
+<AnchorPane prefHeight="400.0" prefWidth="600.0" xmlns="http://javafx.com/javafx/23.0.1" xmlns:fx="http://javafx.com/fxml/1" fx:controller="org.example.gomoku.PauseController">
+   <children>
+      <Button fx:id="continueButton" layoutX="201.0" layoutY="120.0" mnemonicParsing="false" onAction="#continuegame" prefHeight="53.0" prefWidth="198.0" text="Continue?" />
+      <Button fx:id="exitButton" layoutX="201.0" layoutY="200.0" mnemonicParsing="false" onAction="#backmenu" prefHeight="53.0" prefWidth="198.0" text="Exit" />
+      <Label layoutX="201.0" layoutY="270.0" prefHeight="42.0" prefWidth="198.0" text="Note: Exiting will cause you to forfeit the match." wrapText="true" />
+   </children>
+</AnchorPane>
